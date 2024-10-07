@@ -14,5 +14,5 @@ Files:
 
 2. **Environment** | environment.yaml
 
-   Environment file outlining the name of environment used for the project, as well as dependencies that required installation.
+   File outlines the name of the environment used for this project, as well as the dependencies that required installation.
    Using the conda env export --from-history flag, this environemt file will work across all platforms.
