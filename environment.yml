@@ -1,0 +1,11 @@
+name: roots_env
+channels:
+  - defaults
+dependencies:
+  - ipykernel
+  - pandas
+  - matplotlib
+  - jinja2
+  - seaborn
+  - dython
+prefix: /Users/ellensoneill/anaconda3/envs/roots_env
