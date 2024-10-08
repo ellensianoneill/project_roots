@@ -6,7 +6,7 @@ Files:
 
 1. **Jupyter Notebook** | market_survey_engineering.ipyb
 
-   Uses Google API to pull data from Google Sheet, perform data cleansing steps, and insert output into new Google Sheet tabs.
+   Notebook uses Google API to pull data from Google Sheet, perform data cleansing steps, and insert output into new Google Sheet tabs.
    Using Python, both tall and wide datasets have been generated to aid with data analysis in alternative tooling (e.g. Tableau).
 
    The following tutorial was used to establish connection to Google Sheets
@@ -14,12 +14,13 @@ Files:
 
 2. **Jupyter Notebook** | market_survey_analysis.ipyb
 
-   Uses data analytical techniques to gain insight into the dataset.
+   Notebook outlines data analytical techniques used to gain insight into the dataset.
+   
    Examples include:
-   - Histogram (to understand spread of age related data)
-   - Correlation matrix (to tease out potential relationships among catgeorical variables)
+   - **Histogram** to understand spread of age related data
+   - **Correlation matrix** to tease out potential relationships among catgeorical variables
 
 4. **Environment** | environment.yaml
 
-   File outlines the name of the environment used for this project, as well as the dependencies that required installation.
+   File outlines the name of the environment used for this project, as well as the dependencies that require installation.
    Using the conda env export --from-history flag, this environemt file will work across all platforms.
