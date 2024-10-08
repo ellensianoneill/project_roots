@@ -14,9 +14,12 @@ Files:
 
 2. **Jupyter Notebook** | market_survey_analysis.ipyb
 
-   Uses data analytical techniques to gain insight into the dataset (incl. histograms and correlation matrices).
+   Uses data analytical techniques to gain insight into the dataset.
+   Examples include:
+   - Histogram (to understand spread of age related data)
+   - Correlation matrix (to tease out potential relationships among catgeorical variables)
 
-3. **Environment** | environment.yaml
+4. **Environment** | environment.yaml
 
    File outlines the name of the environment used for this project, as well as the dependencies that required installation.
    Using the conda env export --from-history flag, this environemt file will work across all platforms.
